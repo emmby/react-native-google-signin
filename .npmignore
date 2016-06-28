@@ -50,4 +50,5 @@ android/keystores/debug.keystore
 
 # ignore src directory
 # https://booker.codes/how-to-build-and-publish-es6-npm-modules-today-with-babel/
-src
+# COMMENTED OUT to allow mike to test via git instead of publish
+# src
