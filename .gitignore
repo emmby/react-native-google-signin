@@ -72,3 +72,8 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# distribution
+# https://booker.codes/how-to-build-and-publish-es6-npm-modules-today-with-babel/
+distribution
+

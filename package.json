@@ -2,9 +2,11 @@
   "name": "react-native-google-signin",
   "version": "0.6.1",
   "description": "Google Signin for your react native applications",
-  "main": "index",
+  "main": "./distribution/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir distribution",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "react-component",
@@ -30,5 +32,10 @@
     "url": "https://github.com/devfd/react-native-google-signin/issues"
   },
   "homepage": "https://github.com/devfd/react-native-google-signin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react-native": "^1.9.0"
+  }
 }

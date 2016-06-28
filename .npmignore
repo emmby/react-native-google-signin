@@ -47,3 +47,7 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
+
+# ignore src directory
+# https://booker.codes/how-to-build-and-publish-es6-npm-modules-today-with-babel/
+src
